@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C65DBEE8A11869DDD54F541 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9ECA014749D78F5181770E4 /* libPods.a */; };
+		BC5A311F1BDE44170036AE71 /* libVideoKit in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5A311E1BDE44170036AE71 /* libVideoKit */; };
+		BC5EA9A21BD2626E008DF085 /* red in Resources */ = {isa = PBXBuildFile; fileRef = BC5EA9A11BD2626E008DF085 /* red */; };
+		BC5EA9B41BD2644C008DF085 /* ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5EA9AA1BD2644C008DF085 /* ThemeManager.m */; };
+		BC5EA9B51BD2644C008DF085 /* MediaVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5EA9AD1BD2644C008DF085 /* MediaVoiceView.m */; };
+		BC5EA9B61BD2644C008DF085 /* MediaControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5EA9AF1BD2644C008DF085 /* MediaControlView.m */; };
+		BC5EA9B71BD2644C008DF085 /* KSYBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5EA9B11BD2644C008DF085 /* KSYBarView.m */; };
+		BC5EA9B81BD2644C008DF085 /* MediaControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5EA9B31BD2644C008DF085 /* MediaControlViewController.m */; };
+		BC5EA9BA1BD26472008DF085 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5EA9B91BD26472008DF085 /* AudioToolbox.framework */; };
+		BC5EA9BD1BD264B7008DF085 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5EA9BC1BD264B7008DF085 /* VideoViewController.m */; };
+		BCCE9CD31BCFA83B00BA3D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE9CD21BCFA83B00BA3D92 /* main.m */; };
+		BCCE9CD61BCFA83B00BA3D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE9CD51BCFA83B00BA3D92 /* AppDelegate.m */; };
+		BCCE9CD91BCFA83B00BA3D92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE9CD81BCFA83B00BA3D92 /* ViewController.m */; };
+		BCCE9CDC1BCFA83C00BA3D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCE9CDA1BCFA83C00BA3D92 /* Main.storyboard */; };
+		BCCE9CDE1BCFA83C00BA3D92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCE9CDD1BCFA83C00BA3D92 /* Images.xcassets */; };
+		BCCE9CE11BCFA83C00BA3D92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCE9CDF1BCFA83C00BA3D92 /* LaunchScreen.xib */; };
+		BCCE9D021BCFA95200BA3D92 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE9D011BCFA95200BA3D92 /* libstdc++.6.dylib */; };
+		BCCE9D041BCFA96300BA3D92 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE9D031BCFA96300BA3D92 /* libbz2.dylib */; };
+		BCCE9D061BCFA97400BA3D92 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCE9D051BCFA97400BA3D92 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65D66595D904894001D2D83E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BC5A311E1BDE44170036AE71 /* libVideoKit */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVideoKit; sourceTree = "<group>"; };
+		BC5EA9A11BD2626E008DF085 /* red */ = {isa = PBXFileReference; lastKnownFileType = folder; path = red; sourceTree = "<group>"; };
+		BC5EA9A91BD2644C008DF085 /* ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeManager.h; sourceTree = "<group>"; };
+		BC5EA9AA1BD2644C008DF085 /* ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeManager.m; sourceTree = "<group>"; };
+		BC5EA9AB1BD2644C008DF085 /* MediaControlDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaControlDefine.h; sourceTree = "<group>"; };
+		BC5EA9AC1BD2644C008DF085 /* MediaVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaVoiceView.h; sourceTree = "<group>"; };
+		BC5EA9AD1BD2644C008DF085 /* MediaVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaVoiceView.m; sourceTree = "<group>"; };
+		BC5EA9AE1BD2644C008DF085 /* MediaControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaControlView.h; sourceTree = "<group>"; };
+		BC5EA9AF1BD2644C008DF085 /* MediaControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaControlView.m; sourceTree = "<group>"; };
+		BC5EA9B01BD2644C008DF085 /* KSYBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYBarView.h; sourceTree = "<group>"; };
+		BC5EA9B11BD2644C008DF085 /* KSYBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYBarView.m; sourceTree = "<group>"; };
+		BC5EA9B21BD2644C008DF085 /* MediaControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaControlViewController.h; sourceTree = "<group>"; };
+		BC5EA9B31BD2644C008DF085 /* MediaControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaControlViewController.m; sourceTree = "<group>"; };
+		BC5EA9B91BD26472008DF085 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BC5EA9BB1BD264B7008DF085 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		BC5EA9BC1BD264B7008DF085 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		BCCE9CCD1BCFA83A00BA3D92 /* MyVidoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVidoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCE9CD11BCFA83A00BA3D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCE9CD21BCFA83B00BA3D92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCCE9CD41BCFA83B00BA3D92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCCE9CD51BCFA83B00BA3D92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCCE9CD71BCFA83B00BA3D92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCCE9CD81BCFA83B00BA3D92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCCE9CDB1BCFA83C00BA3D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCCE9CDD1BCFA83C00BA3D92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCCE9CE01BCFA83C00BA3D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCCE9CEB1BCFA83C00BA3D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCE9CEC1BCFA83C00BA3D92 /* MyVidoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyVidoDemoTests.m; sourceTree = "<group>"; };
+		BCCE9CF71BCFA8E800BA3D92 /* DrmRelativeAllModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrmRelativeAllModel.h; sourceTree = "<group>"; };
+		BCCE9CF81BCFA8E800BA3D92 /* DrmRelativeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrmRelativeModel.h; sourceTree = "<group>"; };
+		BCCE9CF91BCFA8E800BA3D92 /* KSYFFOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYFFOptions.h; sourceTree = "<group>"; };
+		BCCE9CFA1BCFA8E800BA3D92 /* KSYMediaModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYMediaModule.h; sourceTree = "<group>"; };
+		BCCE9CFB1BCFA8E800BA3D92 /* KSYMediaPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYMediaPlayback.h; sourceTree = "<group>"; };
+		BCCE9CFC1BCFA8E800BA3D92 /* KSYMediaPlayer-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KSYMediaPlayer-Header.h"; sourceTree = "<group>"; };
+		BCCE9CFD1BCFA8E800BA3D92 /* KSYPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYPlayer.h; sourceTree = "<group>"; };
+		BCCE9D011BCFA95200BA3D92 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		BCCE9D031BCFA96300BA3D92 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		BCCE9D051BCFA97400BA3D92 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BCCE9D3B1BCFF3E900BA3D92 /* KSYDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYDefine.h; sourceTree = "<group>"; };
+		D6C9534D8D6403D181D59D98 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D9ECA014749D78F5181770E4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCCE9CCA1BCFA83A00BA3D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5EA9BA1BD26472008DF085 /* AudioToolbox.framework in Frameworks */,
+				BC5A311F1BDE44170036AE71 /* libVideoKit in Frameworks */,
+				BCCE9D061BCFA97400BA3D92 /* libz.dylib in Frameworks */,
+				BCCE9D041BCFA96300BA3D92 /* libbz2.dylib in Frameworks */,
+				BCCE9D021BCFA95200BA3D92 /* libstdc++.6.dylib in Frameworks */,
+				4C65DBEE8A11869DDD54F541 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7BECF9905A3810F260A5AC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65D66595D904894001D2D83E /* Pods.debug.xcconfig */,
+				D6C9534D8D6403D181D59D98 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7137918B2D2EE05784AEF62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9ECA014749D78F5181770E4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC5EA9A81BD26442008DF085 /* MediaControlViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC5EA9A91BD2644C008DF085 /* ThemeManager.h */,
+				BC5EA9AA1BD2644C008DF085 /* ThemeManager.m */,
+				BC5EA9AB1BD2644C008DF085 /* MediaControlDefine.h */,
+				BC5EA9AC1BD2644C008DF085 /* MediaVoiceView.h */,
+				BC5EA9AD1BD2644C008DF085 /* MediaVoiceView.m */,
+				BC5EA9AE1BD2644C008DF085 /* MediaControlView.h */,
+				BC5EA9AF1BD2644C008DF085 /* MediaControlView.m */,
+				BC5EA9B01BD2644C008DF085 /* KSYBarView.h */,
+				BC5EA9B11BD2644C008DF085 /* KSYBarView.m */,
+				BC5EA9B21BD2644C008DF085 /* MediaControlViewController.h */,
+				BC5EA9B31BD2644C008DF085 /* MediaControlViewController.m */,
+				BC5EA9BB1BD264B7008DF085 /* VideoViewController.h */,
+				BC5EA9BC1BD264B7008DF085 /* VideoViewController.m */,
+			);
+			name = MediaControlViewController;
+			sourceTree = "<group>";
+		};
+		BCCE9CC41BCFA83A00BA3D92 = {
+			isa = PBXGroup;
+			children = (
+				BC5EA9B91BD26472008DF085 /* AudioToolbox.framework */,
+				BCCE9D051BCFA97400BA3D92 /* libz.dylib */,
+				BCCE9D031BCFA96300BA3D92 /* libbz2.dylib */,
+				BC5A311E1BDE44170036AE71 /* libVideoKit */,
+				BCCE9D011BCFA95200BA3D92 /* libstdc++.6.dylib */,
+				BCCE9CCF1BCFA83A00BA3D92 /* MyVidoDemo */,
+				BCCE9CE91BCFA83C00BA3D92 /* MyVidoDemoTests */,
+				BCCE9CCE1BCFA83A00BA3D92 /* Products */,
+				A7BECF9905A3810F260A5AC6 /* Pods */,
+				B7137918B2D2EE05784AEF62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCCE9CCE1BCFA83A00BA3D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE9CCD1BCFA83A00BA3D92 /* MyVidoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCCE9CCF1BCFA83A00BA3D92 /* MyVidoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC5EA9A81BD26442008DF085 /* MediaControlViewController */,
+				BC5EA9A11BD2626E008DF085 /* red */,
+				BCCE9CF61BCFA8E800BA3D92 /* KSYMediaPlayer */,
+				BCCE9CD41BCFA83B00BA3D92 /* AppDelegate.h */,
+				BCCE9CD51BCFA83B00BA3D92 /* AppDelegate.m */,
+				BCCE9CD71BCFA83B00BA3D92 /* ViewController.h */,
+				BCCE9CD81BCFA83B00BA3D92 /* ViewController.m */,
+				BCCE9D3B1BCFF3E900BA3D92 /* KSYDefine.h */,
+				BCCE9CDA1BCFA83C00BA3D92 /* Main.storyboard */,
+				BCCE9CDD1BCFA83C00BA3D92 /* Images.xcassets */,
+				BCCE9CDF1BCFA83C00BA3D92 /* LaunchScreen.xib */,
+				BCCE9CD01BCFA83A00BA3D92 /* Supporting Files */,
+			);
+			path = MyVidoDemo;
+			sourceTree = "<group>";
+		};
+		BCCE9CD01BCFA83A00BA3D92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE9CD11BCFA83A00BA3D92 /* Info.plist */,
+				BCCE9CD21BCFA83B00BA3D92 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCCE9CE91BCFA83C00BA3D92 /* MyVidoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE9CEC1BCFA83C00BA3D92 /* MyVidoDemoTests.m */,
+				BCCE9CEA1BCFA83C00BA3D92 /* Supporting Files */,
+			);
+			path = MyVidoDemoTests;
+			sourceTree = "<group>";
+		};
+		BCCE9CEA1BCFA83C00BA3D92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE9CEB1BCFA83C00BA3D92 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCCE9CF61BCFA8E800BA3D92 /* KSYMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE9CF71BCFA8E800BA3D92 /* DrmRelativeAllModel.h */,
+				BCCE9CF81BCFA8E800BA3D92 /* DrmRelativeModel.h */,
+				BCCE9CF91BCFA8E800BA3D92 /* KSYFFOptions.h */,
+				BCCE9CFA1BCFA8E800BA3D92 /* KSYMediaModule.h */,
+				BCCE9CFB1BCFA8E800BA3D92 /* KSYMediaPlayback.h */,
+				BCCE9CFC1BCFA8E800BA3D92 /* KSYMediaPlayer-Header.h */,
+				BCCE9CFD1BCFA8E800BA3D92 /* KSYPlayer.h */,
+			);
+			path = KSYMediaPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCE9CCC1BCFA83A00BA3D92 /* MyVidoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCE9CF01BCFA83C00BA3D92 /* Build configuration list for PBXNativeTarget "MyVidoDemo" */;
+			buildPhases = (
+				3835134705D6FF40573F56C9 /* Check Pods Manifest.lock */,
+				BCCE9CC91BCFA83A00BA3D92 /* Sources */,
+				BCCE9CCA1BCFA83A00BA3D92 /* Frameworks */,
+				BCCE9CCB1BCFA83A00BA3D92 /* Resources */,
+				DB9902004758DCCAEA819DBA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyVidoDemo;
+			productName = MyVidoDemo;
+			productReference = BCCE9CCD1BCFA83A00BA3D92 /* MyVidoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCCE9CC51BCFA83A00BA3D92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = TonyAng;
+				TargetAttributes = {
+					BCCE9CCC1BCFA83A00BA3D92 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = BCCE9CC81BCFA83A00BA3D92 /* Build configuration list for PBXProject "MyVidoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCCE9CC41BCFA83A00BA3D92;
+			productRefGroup = BCCE9CCE1BCFA83A00BA3D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCCE9CCC1BCFA83A00BA3D92 /* MyVidoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCE9CCB1BCFA83A00BA3D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCE9CDC1BCFA83C00BA3D92 /* Main.storyboard in Resources */,
+				BCCE9CE11BCFA83C00BA3D92 /* LaunchScreen.xib in Resources */,
+				BC5EA9A21BD2626E008DF085 /* red in Resources */,
+				BCCE9CDE1BCFA83C00BA3D92 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3835134705D6FF40573F56C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9902004758DCCAEA819DBA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCCE9CC91BCFA83A00BA3D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5EA9BD1BD264B7008DF085 /* VideoViewController.m in Sources */,
+				BC5EA9B81BD2644C008DF085 /* MediaControlViewController.m in Sources */,
+				BC5EA9B71BD2644C008DF085 /* KSYBarView.m in Sources */,
+				BC5EA9B61BD2644C008DF085 /* MediaControlView.m in Sources */,
+				BCCE9CD91BCFA83B00BA3D92 /* ViewController.m in Sources */,
+				BCCE9CD61BCFA83B00BA3D92 /* AppDelegate.m in Sources */,
+				BCCE9CD31BCFA83B00BA3D92 /* main.m in Sources */,
+				BC5EA9B51BD2644C008DF085 /* MediaVoiceView.m in Sources */,
+				BC5EA9B41BD2644C008DF085 /* ThemeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCCE9CDA1BCFA83C00BA3D92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCE9CDB1BCFA83C00BA3D92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCCE9CDF1BCFA83C00BA3D92 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCE9CE01BCFA83C00BA3D92 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCCE9CEE1BCFA83C00BA3D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCCE9CEF1BCFA83C00BA3D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCCE9CF11BCFA83C00BA3D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D66595D904894001D2D83E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyVidoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCCE9CF21BCFA83C00BA3D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C9534D8D6403D181D59D98 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyVidoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCCE9CC81BCFA83A00BA3D92 /* Build configuration list for PBXProject "MyVidoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCE9CEE1BCFA83C00BA3D92 /* Debug */,
+				BCCE9CEF1BCFA83C00BA3D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCE9CF01BCFA83C00BA3D92 /* Build configuration list for PBXNativeTarget "MyVidoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCE9CF11BCFA83C00BA3D92 /* Debug */,
+				BCCE9CF21BCFA83C00BA3D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCCE9CC51BCFA83A00BA3D92 /* Project object */;
+}
